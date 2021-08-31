@@ -106,10 +106,13 @@ Powered by :- [Awesome Bots](t.me/Laylalist)"""
 
 layla_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Hero](t.me/HEROGAMERS1) \
- Supporting isnt always financial! [AwesomeSupport](t.me/LaylaList) \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+DONATE_STRING = """Heya, Glad to hear you want to donate!
+It took a lot of work for my creator to get me to where I am now so if you have some money to spare and want to show your support... Donate!
+After all server fees dont pay themselves so every little helps! All donation money goes straight to funding the VPS and of course boosting morale always nice to see my work is appreciated
+
+There are only one ways of paying him : [ARKSUjon](https://t.me/ARKSUjon)
+
+Thank you for your generosity!"""
 
 IMPORTED = {}
 MIGRATEABLE = []
