@@ -92,9 +92,6 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/laylalogs"),
-        InlineKeyboardButton(
-            text="ꜰᴇᴅᴇʀᴀᴛɪᴏɴ", url=f"https://t.me/AntiRippingOrganization/410"
-        ),
     ],
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
