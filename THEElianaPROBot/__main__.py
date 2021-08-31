@@ -74,9 +74,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello, I'M THEElianaPROBot
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help
-Maintained by @Eliana2020Eliana ❤
+💁‍♀ Hello, I'M THE Eliana PRO Bot
+I'm Here to Help You Manage Your Groups! 
+
+🔛 Helpful commands :
+
+1⃣ /start: Starts me! You've probably already used this.
+2⃣ /help: Sends this message; I'll tell you more about myself!
+3⃣ /donate: Gives you info on how to support me and my creator.
+⏺ If you have any question or bugs @TEP_Discussion.
+
+☑️ Maintained by @THEElianaPRO ❤️
 """
 
 buttons = [
@@ -100,26 +108,23 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hey there! My name is *THEElianaPROBot*, I'm here to help you manage our $CHNG groups!
+👩‍💻 Hey.. I'M THE Eliana PRO Bot
+I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords (ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ)
 
-*🌎 Your own DeFi universe in one app
-✨ Powered by cross chain magic.*
+⏺ If you have any question or bugs @TEP_Discussion.
 
-Chainge Finance is THE ultimate Defi app that empowers people from all over the world to become their own digital bank. With Chainge's automated financial services, users have complete control over their wealth while enjoying 100% freedom & security.
-Exchange, Earn, Connect with friends and easily Pay or Request assets with just a couple of taps - regardless of the chain your assets are on.    
+📌 All commands can be used with the following: / !
 
-@ChaingeFinanceNews
+🔐 Powered by :- [THE Eliana PRO](https://t.me/THEElianaPRO)
 """
 
 layla_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
 
-DONATE_STRING = """Heya, Glad to hear you want to donate!
-It took a lot of work for my creator to get me to where I am now so if you have some money to spare and want to show your support... Donate!
-After all server fees dont pay themselves so every little helps! All donation money goes straight to funding the VPS and of course boosting morale always nice to see my work is appreciated
+DONATE_STRING = """So you want to donate? Amazing!
+It took a lot of work for my creator to get me to where I am now - so if you have some money to spare, and want to show your support; Donate!
+After all, server fees don't pay themselves - so every little helps! All donation money goes straight to funding the VPS, and of course, boosting morale - always nice to see my work is appreciated :)
 
-There are only one ways of paying him : [ARKSUjon](https://t.me/ARKSUjon)
-
-Thank you for your generosity!"""
+You can donate via crypto [here](https://t.me/THEElianaPRO/9) or if you want to help support me on a monthly basis, you can set up a recurring donation on [developer account.](https://t.me/HEROGAMERS1)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
