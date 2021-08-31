@@ -100,9 +100,17 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'M` THEElianaPROBot
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
-Powered by :- [Awesome Bots](t.me/Laylalist)"""
+Hey there! My name is *THEElianaPROBot*, I'm here to help you manage our $CHNG groups!
+
+*🌎 Your own DeFi universe in one app
+✨ Powered by cross chain magic.*
+
+Chainge Finance is THE ultimate Defi app that empowers people from all over the world to become their own digital bank. With Chainge's automated financial services, users have complete control over their wealth while enjoying 100% freedom & security.
+Exchange, Earn, Connect with friends and easily Pay or Request assets with just a couple of taps - regardless of the chain your assets are on.    
+
+@ChaingeFinanceNews
+└────────────── •✧✧• ──────────┘
+"""
 
 layla_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
 
