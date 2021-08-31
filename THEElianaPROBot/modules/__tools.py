@@ -4,6 +4,9 @@ __help__ = """
 *QR code*
  ❍ /getqr*:* Get text in QR
  ❍ /makeqr*:* Make a QR code.
+ 
+*Country*
+ ❍ /country <country name>*:* Gives information about a country.
 
 *Date-time-Weather*
  ❍ /time <country code>*:* Gives information about a timezone.
