@@ -110,7 +110,7 @@ HELP_STRINGS = """
 👩‍💻 Hey.. I'M THE Eliana PRO Bot
 I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords (ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ)
 
-📌 All commands can be used with the following: / !
+📌 All commands can be used with the following: / 
 
 🔐 Powered by :- [THE Eliana PRO](https://t.me/THEElianaPRO)
 """
