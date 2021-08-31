@@ -77,7 +77,6 @@ PM_START_TEXT = """
 💁‍♀ Hello, I'M THE Eliana PRO Bot
 I'm Here to Help You Manage Your Groups! 
 🔛 Helpful commands Hit /help
-⏺ If you have any question or bugs @TEP_Discussion.
 ☑️ Maintained by @THEElianaPRO ❤️
 """
 
