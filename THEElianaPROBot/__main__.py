@@ -73,17 +73,12 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = f"""
+PM_START_TEXT = """
 💁‍♀ Hello, I'M THE Eliana PRO Bot
 I'm Here to Help You Manage Your Groups! 
-
 🔛 Helpful commands :
-
-1⃣ /start: Starts me! You've probably already used this.
-2⃣ /help: Sends this message; I'll tell you more about myself!
-3⃣ /donate: Gives you info on how to support me and my creator.
+/start: Starts me! You've probably already used this.\n /help: Sends this message; I'll tell you more about myself!\n /donate: Gives you info on how to support me and my creator.
 ⏺ If you have any question or bugs @TEP_Discussion.
-
 ☑️ Maintained by @THEElianaPRO ❤️
 """
 
