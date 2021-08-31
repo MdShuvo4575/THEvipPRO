@@ -354,19 +354,26 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Layla*, a powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_Layla's licensed under the GNU General Public License v3.0_
-                 \n❍ Awesome Bots @LaylaList
-                 \n❍ Support Group @AwesomeSupport
-                 \n❍ Assistant @LaylaAssistant.
-                 \nHere is the [💾Repository](https://github.com/QueenArzoo/THEElianaPROBot).
-                 \n\nIf you have any question about Layla, let us know at .""",
+            text=""" 🌎 Your own DeFi universe in one app\n✨ Powered by cross chain magic.\n\n
+                 Chainge is THE ultimate Defi app that empowers people from all over the world to become their own digital bank. With Chainge's automated financial services, users have complete control over their wealth while enjoying 100% freedom & security.
+                 Exchange, Earn, Connect with friends and easily Pay or Request assets with just a couple of taps - regardless of the chain your assets are on.\n\n
+    ❗️ Official Resources❗️\n\n
+                 🔥 You can download our app from the [Appstore](https://apps.apple.com/ro/app/chainge-finance/id1578987516) (iOS) and [Google Play](https://play.google.com/store/apps/details?id=com.fusion.chainge.android) (Android)\n
+                 ☑️ [Website](http://www.chainge.finance/)\n
+                 ☑️ [Chainge DEX Market](https://www.chainge.finance/info/assets)\n
+                 ☑️ [Twitter](https://twitter.com/FinanceChainge)\n
+                 ☑️ [Gitbook](https://chaingefinance.gitbook.io/chainge-finance)\n
+                 ☑️ [Medium](https://chainge-finance.medium.com/\n
+                 ☑️ [Facebook](https://www.facebook.com/chainge.finance)\n
+                 ☑️ [Instagram](https://www.instagram.com/chainge.finance\n
+                 ☑️ [CoinMarketCap](https://coinmarketcap.com/currencies/chainge\n
+                 ☑️ [Coin Gecko](https://www.coingecko.com/en/coins/chainge-finance)\n
+                 ☑️ [LunarCrush](https://lunarcrush.com/coins/chng/chainge?interval=1%20Week\n
+                 ☑️ [Blockfolio](https://blockfolio.com/coin/CHNG\n
+                 ☑️ [Certik Org Audits](https://t.co/L5y2nM8nBv?amp=1)\n
+                 ☑️ [News Channel](http://t.me/chaingefinancenews)\n\n
+                 🙂 Smart contract (We Are Cross-Chain) `0xed0294dbd2a0e52a09c3f38a09f6e03de2c44fcf`\n\n
+                 🚀 Thank you for being a Chainger!""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
