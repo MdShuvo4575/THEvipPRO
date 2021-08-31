@@ -27,7 +27,7 @@ class Config(object):
     DATABASE_URL = getenv("DATABASE_URL", "")
     MONGO_DB_URI = "mongodb+srv://hero:hero@cluster0.2nyzp.mongodb.net/test?retryWrites=true&w=majority"
     HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
-    DONATION_LINK = getenv("DONATION_LINK", "https://t.me/LaylaList")
+    DONATION_LINK = getenv("DONATION_LINK", "https://t.me/THEElianaPRO/9")
 
     # RECOMMENDED
     LOAD = []
