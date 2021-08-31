@@ -3,6 +3,7 @@ from traceback import format_exc
 
 from pyrogram import filters
 from pyrogram.types import Message
+from THEElianaPROBot import pbot as app
 
 from THEElianaPROBot.utils.errors import capture_err
 
