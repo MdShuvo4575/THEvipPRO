@@ -1,11 +1,8 @@
-# © @Mr_Dark_Prince
+# © Github Username @QueenArzoo
 import aiohttp
 from pyrogram import filters
 from THEElianaPROBot import pbot
 from THEElianaPROBot.pyrogramee.errors import capture_err
-
-
-__mod_name__ = "Github"
 
 
 @pbot.on_message(filters.command('github'))
@@ -49,3 +46,9 @@ async def github(_, message):
                 print(str(e))
                 pass
     await message.reply_photo(photo=avatar_url, caption=caption)
+    
+__help__ = """
+"• /github - Github Profile Imformation 
+"""
+
+__mod_name__ = "Github"   
