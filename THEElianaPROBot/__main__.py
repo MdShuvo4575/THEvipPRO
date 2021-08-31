@@ -109,7 +109,6 @@ Chainge Finance is THE ultimate Defi app that empowers people from all over the 
 Exchange, Earn, Connect with friends and easily Pay or Request assets with just a couple of taps - regardless of the chain your assets are on.    
 
 @ChaingeFinanceNews
-└────────────── •✧✧• ──────────┘
 """
 
 layla_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
