@@ -21,7 +21,7 @@ class Config(object):
     OWNER_USERNAME = "HEROGAMERS1" 
     BOT_ID = ""
     HEROKU_APP_NAME = ""
-    SUPPORT_CHAT = "AwesomeSupport"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "TEP_DISCUSSION"  # Your own group for support, do not add the @
     JOIN_LOGGER = (-1001392103597)
     EVENT_LOGS = (-1001392103597)  # Logs Channel Id do not add the @
     DATABASE_URL = getenv("DATABASE_URL", "")
