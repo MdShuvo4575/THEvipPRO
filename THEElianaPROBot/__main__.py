@@ -366,13 +366,13 @@ def layla_about_callback(update, context):
                  ☑️ [Chainge DEX Market](https://www.chainge.finance/info/assets)\n
                  ☑️ [Twitter](https://twitter.com/FinanceChainge)\n
                  ☑️ [Gitbook](https://chaingefinance.gitbook.io/chainge-finance)\n
-                 ☑️ [Medium](https://chainge-finance.medium.com/\n
+                 ☑️ [Medium](https://chainge-finance.medium.com)\n
                  ☑️ [Facebook](https://www.facebook.com/chainge.finance)\n
-                 ☑️ [Instagram](https://www.instagram.com/chainge.finance\n
-                 ☑️ [CoinMarketCap](https://coinmarketcap.com/currencies/chainge\n
+                 ☑️ [Instagram](https://www.instagram.com/chainge.finance)\n
+                 ☑️ [CoinMarketCap](https://coinmarketcap.com/currencies/chainge)\n
                  ☑️ [Coin Gecko](https://www.coingecko.com/en/coins/chainge-finance)\n
-                 ☑️ [LunarCrush](https://lunarcrush.com/coins/chng/chainge?interval=1%20Week\n
-                 ☑️ [Blockfolio](https://blockfolio.com/coin/CHNG\n
+                 ☑️ [LunarCrush](https://lunarcrush.com/coins/chng/chainge?interval=1%20Week)\n
+                 ☑️ [Blockfolio](https://blockfolio.com/coin/CHNG)\n
                  ☑️ [Certik Org Audits](https://t.co/L5y2nM8nBv?amp=1)\n
                  ☑️ [News Channel](http://t.me/chaingefinancenews)\n\n
                  🙂 Smart contract (We Are Cross-Chain) `0xed0294dbd2a0e52a09c3f38a09f6e03de2c44fcf`\n\n
