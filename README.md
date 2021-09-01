@@ -195,5 +195,6 @@ The bot is based on the original work done by [PaulSonOfLars](https://github.com
 
 
 ##
->[CHANNEL](http://t.me/THEElianaPRO) 
->[DEV](http://t.me/HEROGAMERS1)
+- [CHANNEL](http://t.me/THEElianaPRO) 
+
+- [DEV](http://t.me/HEROGAMERS1)
