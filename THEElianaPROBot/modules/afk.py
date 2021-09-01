@@ -154,6 +154,7 @@ dispatcher.add_handler(AFK_REPLY_HANDLER, AFK_REPLY_GROUP)
 
 __help__ = """
 *AFK*
+ 
  ❍ /afk*:* give text
 """
 
