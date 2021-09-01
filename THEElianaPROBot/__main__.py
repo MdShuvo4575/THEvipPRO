@@ -112,7 +112,7 @@ I have lots of handy features, such as flood control, a warning system, a note k
 
 📌 All commands can be used with the following: / 
 
-🔐 Powered by :- [THE Eliana PRO](https://t.me/THEElianaPRO)
+🔐 Powered by :- @THEElianaPRO
 """
 
 layla_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
