@@ -153,8 +153,8 @@ dispatcher.add_handler(AFK_REPLY_HANDLER, AFK_REPLY_GROUP)
 
 
 __help__ = """
- 
- ❍ /afk*:* give text
+*Away from group*
+ ❍ /afk <reason>*:* mark yourself as AFK(away from keyboard).
 """
 
 __mod_name__ = "Afk"
