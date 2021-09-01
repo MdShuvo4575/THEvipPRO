@@ -1,5 +1,5 @@
-[![Deploy](https://telegra.ph/file/aaa10262ebe6670eecf58.jpg)](https://heroku.com/deploy?template=https://github.com/QueenArzoo/THEElianaPROBot1.git)
-# Layla Robot
+[![Deploy](https://telegra.ph/file/d7ba070072629f76a3a1b.jpg)](https://heroku.com/deploy?template=https://github.com/THEElianaPRO/THEElianaPROBot.git)
+# THE Eliana PRO Bot
 ### Click Below Image to Deploy
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
@@ -19,7 +19,7 @@ Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FQueenArzoo%2FTHEElianaPROBot&template=https%3A%2F%2Fgithub.com%2FQueenArzoo%2FTHEElianaPROBot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2THEElianaPRO%2FTHEElianaPROBot&template=https%3A%2F%2Fgithub.com%2THEElianaPRO%THEElianaPROBot)
 
 
 
@@ -185,7 +185,7 @@ You can use [nssm](https://nssm.cc/usage) to install the bot as service on windo
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/HEROGAMERS1)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/THEElianaPRO)
 ## How to setup on Heroku 
 For starters click on this button 
 </details>  
@@ -194,5 +194,6 @@ For starters click on this button
 The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
 
 
-
-## [OWNER HERO](http://t.me/HEROGAMERS1)
+##
+>[CHANNEL](http://t.me/THEElianaPRO) 
+>[DEV](http://t.me/HEROGAMERS1)
