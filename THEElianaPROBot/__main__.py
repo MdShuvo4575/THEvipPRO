@@ -366,11 +366,11 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" 🌎 Niladdri (2.0) Bot Is Telegram's First Advanced Group Manager Bot With All Features.\n\n
-☑️ ANNOUNCEMENT Channel @THEvipBOTBD\n
-☑️ Discussion Community @TVB_Discussion\n
-☑️ THEvipBOT @THEvipBOT_logs\n
-☑️ Developer @SAdikulWAhidSUjon\n
+            text=f""" 🌎 THE vip BOT Is Telegram's First Advanced Group Manager Bot With All Features.\n\n
+☑️ ANNOUNCEMENT Channel @THEvipBOTBD
+☑️ Discussion Community @TVB_Discussion
+☑️ THEvipBOT @THEvipBOT_logs
+☑️ Developer @SAdikulWAhidSUjon
 ☑️ Our Custom Bot @CustomTelegramBOT247\n\n
                  🙂 Donation me (BEP20 address) `0x5c3388dFA4B45aB990189323308a1D97803e2c3e`\n\n
                  ✨ Powered by @CustomTelegramBOT247!""",
