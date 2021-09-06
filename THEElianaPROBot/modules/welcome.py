@@ -366,7 +366,7 @@ def new_member(update: Update, context: CallbackContext):
                         )
                     new_join_mem = f"[{escape_markdown(new_mem.first_name)}](tg://user?id={user.id})"
                     message = msg.reply_text(
-                        f"{new_join_mem}, click the button below to prove you're human.\nYou have 120 seconds.",
+                        f"{new_join_mem}, click the button below to prove you're human.\n\n☑️ You have 120 seconds otherwise you will be kicked 🤦‍♀",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 {
@@ -538,7 +538,7 @@ def check_not_bot(member, chat_id, message_id, context):
 
         try:
             bot.edit_message_text(
-                "*kicks user*\nThey can always rejoin and try.",
+                "*kicked the user*\nThey can always rejoin and try.",
                 chat_id=chat_id,
                 message_id=message_id,
             )
