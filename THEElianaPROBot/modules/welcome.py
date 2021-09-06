@@ -240,7 +240,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome yourself
             elif new_mem.id == bot.id:
                 update.effective_message.reply_text(
-                    "Thanks for adding me! Join @AwesomeSupport for support.",
+                    "Thanks for adding me! Join @TVB_Discussion for support.",
                     reply_to_message_id=reply,
                 )
                 continue
