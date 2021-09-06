@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-💁‍♀ Hello, I'M THE Eliana PRO Bot
+💁‍♀ Hello, I'M THE vip BOT
 I'm Here to Help You Manage Your Groups! 
 
 🔛 Helpful commands :
@@ -83,13 +83,13 @@ I'm Here to Help You Manage Your Groups!
 2⃣ /help: Sends this message; I'll tell you more about myself!
 3⃣ /donate: Gives you info on how to support me and my creator.
 
-☑️ Maintained by @THEElianaPRO ❤️
+☑️ Maintained by @SAdikulWAhidSUjon ❤️
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/THEElianaPROBot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/THEvipBOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="layla_"),
@@ -98,21 +98,21 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/laylalogs"),
+        InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/THEvipBOT_logs"),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="ʜᴇʟᴘꜱ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-👩‍💻 Hey.. I'M THE Eliana PRO Bot
+👩‍💻 Hey.. I'M THE vip BOT
 I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords (ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ)
 
 📌 All commands can be used with the following: / 
 
-🔐 Powered by :- @THEElianaPRO
+🔐 Powered by :- @SAdikulWAhidSUjon
 """
 
 layla_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
@@ -121,7 +121,7 @@ DONATE_STRING = """So you want to donate? Amazing!
 It took a lot of work for my creator to get me to where I am now - so if you have some money to spare, and want to show your support; Donate!
 After all, server fees don't pay themselves - so every little helps! All donation money goes straight to funding the VPS, and of course, boosting morale - always nice to see my work is appreciated :)
 
-You can donate via crypto [here](https://t.me/THEElianaPRO/9) or if you want to help support me on a monthly basis, you can set up a recurring donation on [developer account.](https://t.me/HEROGAMERS1)"""
+You can donate via crypto [here](https://t.me/THEvipBOTBD/6) or if you want to help support me on a monthly basis, you can set up a recurring donation on [developer account.](https://t.me/SAdikulWAhidSUjon)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -366,26 +366,14 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" 🌎 Your own DeFi universe in one app\n✨ Powered by cross chain magic.\n\n
-                 Chainge is THE ultimate Defi app that empowers people from all over the world to become their own digital bank. With Chainge's automated financial services, users have complete control over their wealth while enjoying 100% freedom & security.
-                 Exchange, Earn, Connect with friends and easily Pay or Request assets with just a couple of taps - regardless of the chain your assets are on.\n\n
-    ❗️ Official Resources❗️\n\n
-                 🔥 You can download our app from the [Appstore](https://apps.apple.com/ro/app/chainge-finance/id1578987516) (iOS) and [Google Play](https://play.google.com/store/apps/details?id=com.fusion.chainge.android) (Android)\n
-                 ☑️ [Website](http://www.chainge.finance/)\n
-                 ☑️ [Chainge DEX Market](https://www.chainge.finance/info/assets)\n
-                 ☑️ [Twitter](https://twitter.com/FinanceChainge)\n
-                 ☑️ [Gitbook](https://chaingefinance.gitbook.io/chainge-finance)\n
-                 ☑️ [Medium](https://chainge-finance.medium.com)\n
-                 ☑️ [Facebook](https://www.facebook.com/chainge.finance)\n
-                 ☑️ [Instagram](https://www.instagram.com/chainge.finance)\n
-                 ☑️ [CoinMarketCap](https://coinmarketcap.com/currencies/chainge)\n
-                 ☑️ [Coin Gecko](https://www.coingecko.com/en/coins/chainge-finance)\n
-                 ☑️ [LunarCrush](https://lunarcrush.com/coins/chng/chainge?interval=1%20Week)\n
-                 ☑️ [Blockfolio](https://blockfolio.com/coin/CHNG)\n
-                 ☑️ [Certik Org Audits](https://t.co/L5y2nM8nBv?amp=1)\n
-                 ☑️ [News Channel](http://t.me/chaingefinancenews)\n\n
-                 🙂 Smart contract (We Are Cross-Chain) `0xed0294dbd2a0e52a09c3f38a09f6e03de2c44fcf`\n\n
-                 🚀 Thank you for being a Chainger!""",
+            text=""" 🌎 Niladdri (2.0) Bot Is Telegram's First Advanced Group Manager Bot With All Features.\n\n
+☑️ ANNOUNCEMENT Channel @THEvipBOTBD\n
+☑️ Discussion Community @TVB_Discussion\n
+☑️ THEvipBOT @THEvipBOT_logs\n
+☑️ Developer @SAdikulWAhidSUjon\n
+☑️ Our Custom Bot @CustomTelegramBOT247\n\n
+                 🙂 Donation me (BEP20 address) `0x5c3388dFA4B45aB990189323308a1D97803e2c3e`\n\n
+                 ✨ Powered by @CustomTelegramBOT247!""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -411,8 +399,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Layla*
-                 \nHere is the [Source Code](https://github.com/QueenArzoo/THEElianaPROBot) .""",
+            text=""" Hi..🤗 I'm *THE vip BOT*
+                 \nHere is the [Donation Address Chart](https://t.me/THEvipBOTBD/6) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
