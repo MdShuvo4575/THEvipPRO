@@ -22,10 +22,10 @@ class Config(object):
     BOT_ID = ""
     HEROKU_APP_NAME = ""
     SUPPORT_CHAT = "TEP_DISCUSSION"  # Your own group for support, do not add the @
-    JOIN_LOGGER = (-1001392103597)
-    EVENT_LOGS = (-1001392103597)  # Logs Channel Id do not add the @
+    JOIN_LOGGER = (-1001594718663)
+    EVENT_LOGS = (-1001511838673)  # Logs Channel Id do not add the @
     DATABASE_URL = getenv("DATABASE_URL", "")
-    MONGO_DB_URI = "mongodb+srv://hero:hero@cluster0.2nyzp.mongodb.net/test?retryWrites=true&w=majority"
+    MONGO_DB_URI = ""
     HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
     DONATION_LINK = getenv("DONATION_LINK", "https://t.me/THEElianaPRO/9")
 
