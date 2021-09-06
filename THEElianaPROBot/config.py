@@ -14,11 +14,11 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1367591  # integer value, dont use ""
-    API_HASH = "5d4ebdf8b500f26507cc31d2857ff668"
-    TOKEN = "1885209485:AAG8MLz94Lw6cFsaPw-2zZvqiX5z8ijcl5o"  # Your Bot Token
-    OWNER_ID = 797768146  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "HEROGAMERS1" 
+    API_ID = 7230086  # integer value, dont use ""
+    API_HASH = "93dcc19b29f53920df7f9448e22e0f91"
+    TOKEN = "1942520500:AAEgu6pokz9Apq55_GVezV837bn_vyhJxY0"  # Your Bot Token
+    OWNER_ID = 1960779758  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "SAdikulWAhidSUjon" 
     BOT_ID = ""
     HEROKU_APP_NAME = ""
     SUPPORT_CHAT = "TEP_DISCUSSION"  # Your own group for support, do not add the @
