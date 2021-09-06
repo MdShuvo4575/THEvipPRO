@@ -367,11 +367,11 @@ def layla_about_callback(update, context):
     if query.data == "layla_":
         query.message.edit_text(
             text=f""" 🌎 THE vip BOT Is Telegram's First Advanced Group Manager Bot With All Features.\n           ❗️ Official Resources ❗️\n\n
-☑️ THE vip BOT [(CHANNEL)](https://t.me/THEvipBOTBD)
-☑️ THE vip BOT [(Discussion)](https://t.me/TVB_Discussion)
-☑️ THE vip BOT [(LOGS)](https://t.me/THEvipBOT_logs)
-☑️ Developer [(SWS Khan)](https://t.me/SAdikulWAhidSUjon)
-☑️ Our Custom Bot [(CHANNEL)](https://t.me/CustomTelegramBOT247)
+☑️ THE vip BOT [CHANNEL](https://t.me/THEvipBOTBD)
+☑️ THE vip BOT [Discussion](https://t.me/TVB_Discussion)
+☑️ THE vip BOT [LOGS](https://t.me/THEvipBOT_logs)
+☑️ Developer [SWS Khan](https://t.me/SAdikulWAhidSUjon)
+☑️ Our Custom Bot [CHANNEL](https://t.me/CustomTelegramBOT247)
                  🙂 Donation me (BEP20 address) `0x5c3388dFA4B45aB990189323308a1D97803e2c3e`\n\n
                  ✨ Powered by @CustomTelegramBOT247!""",
             parse_mode=ParseMode.MARKDOWN,
