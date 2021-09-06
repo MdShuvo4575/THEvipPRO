@@ -94,14 +94,14 @@ buttons = [
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="layla_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/TVB_Discussion}"
         ),
     ],
     [
         InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/THEvipBOT_logs"),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘꜱ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="ʜᴇʟᴘꜱ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
 ]
 
@@ -366,12 +366,12 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=f""" 🌎 THE vip BOT Is Telegram's First Advanced Group Manager Bot With All Features.\n\n
-☑️ ANNOUNCEMENT Channel @THEvipBOTBD
-☑️ Discussion Community @TVB_Discussion
-☑️ THEvipBOT @THEvipBOT_logs
-☑️ Developer @SAdikulWAhidSUjon
-☑️ Our Custom Bot @CustomTelegramBOT247\n\n
+            text=f""" 🌎 THE vip BOT Is Telegram's First Advanced Group Manager Bot With All Features.\n           ❗️ Official Resources ❗️\n\n
+☑️ THE vip BOT [(CHANNEL)](https://t.me/THEvipBOTBD)
+☑️ THE vip BOT [(Discussion)](https://t.me/TVB_Discussion)
+☑️ THE vip BOT [(LOGS)](https://t.me/THEvipBOT_logs)
+☑️ Developer [(SWS Khan)](https://t.me/SAdikulWAhidSUjon)
+☑️ Our Custom Bot [(CHANNEL)](https://t.me/CustomTelegramBOT247)
                  🙂 Donation me (BEP20 address) `0x5c3388dFA4B45aB990189323308a1D97803e2c3e`\n\n
                  ✨ Powered by @CustomTelegramBOT247!""",
             parse_mode=ParseMode.MARKDOWN,
@@ -695,7 +695,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes, I'm alive 😹 (Good morning)")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
