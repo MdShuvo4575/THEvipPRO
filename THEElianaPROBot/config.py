@@ -16,14 +16,14 @@ class Config(object):
 
     API_ID = 7230086  # integer value, dont use ""
     API_HASH = "93dcc19b29f53920df7f9448e22e0f91"
-    TOKEN = "1942520500:AAEgu6pokz9Apq55_GVezV837bn_vyhJxY0"  # Your Bot Token
-    OWNER_ID = 1960779758  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    TOKEN = "2045390157:AAGzQWlpD5oORRMz_CV2Qn6OqXYSHHNvjUw"  # Your Bot Token
+    OWNER_ID = 2045390157  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "SAdikulWAhidSUjon" 
     BOT_ID = ""
     HEROKU_APP_NAME = ""
     SUPPORT_CHAT = "TVB_Discussion"  # Your own group for support, do not add the @
-    JOIN_LOGGER = (-1001594718663)
-    EVENT_LOGS = (-1001511838673)  # Logs Channel Id do not add the @
+    JOIN_LOGGER = (-1001573229865)
+    EVENT_LOGS = (-1001565052701)  # Logs Channel Id do not add the @
     DATABASE_URL = getenv("DATABASE_URL", "")
     MONGO_DB_URI = ""
     HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
