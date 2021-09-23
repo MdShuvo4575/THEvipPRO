@@ -74,8 +74,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-💁‍♀ Hello, I'M THE vip BOT
-I'm Here to Help You Manage Your Groups! 
+💁‍♀ Hello, @THEvipBOT is the most complete Bot to help you manage your groups easily and safely! 
+ 
+👉🏻 Add me in a Supergroup and promote me as Admin to let me get in action! 
 
 🔛 Helpful commands :
 
@@ -83,13 +84,13 @@ I'm Here to Help You Manage Your Groups!
 2⃣ /help: Sends this message; I'll tell you more about myself!
 3⃣ /donate: Gives you info on how to support me and my creator.
 
-☑️ Maintained by @SAdikulWAhidSUjon ❤️
+☑️ Maintained by @IstiyakAhmed ❤️
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/THEvipBOT?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Agrinoble_Fighter_Bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="layla_"),
@@ -107,12 +108,12 @@ buttons = [
 
 
 HELP_STRINGS = """
-👩‍💻 Hey.. I'M THE vip BOT
+👩‍💻 Hey.. I'M Agrinoble Fighter Bot
 I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords (ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ)
 
 📌 All commands can be used with the following: / 
 
-🔐 Powered by :- @SAdikulWAhidSUjon
+🔐 Powered by :- @CustomTelegramBOT247
 """
 
 layla_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
